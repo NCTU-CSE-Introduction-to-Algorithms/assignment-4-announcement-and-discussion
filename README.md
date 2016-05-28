@@ -64,14 +64,16 @@ Decoded article.
 
 Given by original document, format:
 
-<number of vertices>
-<number of edges>
-<endpoint 1> <endpoint 2> <weight>
-<endpoint 1> <endpoint 2> <weight>
-<Vehicle Range>
-<Vehicle Speed>
-<Source City>  
-<Destination City >
+```
+<number of vertices (2 ≤ V ≤ 10)>
+<number of edges (1 ≤ E ≤ 20)>
+<endpoint 1> <endpoint 2> <weight (1 ≤ W1 ≤ 1000)>
+<endpoint 1> <endpoint 2> <weight (1 ≤ W2 ≤ 1000)>
+<Vehicle Range (0 < VR)>
+<Vehicle Speed (0 < VS)>
+<Source City (0 ≤ SC ≤ V-1)>
+<Destination City (0 ≤ DC ≤ V-1)>
+```
 
 Sample input:
 ```
