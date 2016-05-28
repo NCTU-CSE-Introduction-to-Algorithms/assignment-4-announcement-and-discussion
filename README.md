@@ -92,9 +92,9 @@ Sample input:
 
 - Output:
 ```
-Route: 0 1
-Total distance: 130
-Estimation time: 2.6
+Route: 0 2 3 4 1
+Total distance: 140
+Estimation time: 2.8
 ```
 
 ## Q & A
