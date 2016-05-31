@@ -15,7 +15,7 @@ Please **at least** commit each program for **two** commits, don't do them all i
 ### Prog-1-encode:
 
 - Input:
-Input for Huffman encoder contains N characters (N <= 1024), end by `EOF`.
+Input for Huffman encoder contains N characters (N <= 2048), end by `EOF`.
 
 Sample input:
 ```
