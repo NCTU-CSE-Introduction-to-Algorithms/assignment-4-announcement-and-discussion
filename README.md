@@ -136,6 +136,8 @@ int main() {
     while(scanf("%c", &c) != EOF) {
         buf[i++] = c;
     }
+    buf[i] = '\0';
+    // do something.....
     return 0;
 }
 ```
