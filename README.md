@@ -104,3 +104,44 @@ Please open issue here: https://github.com/NCTU-CSE-Introduction-to-Algorithms/a
 
 ## Notes
 Please ["Watch"](https://github.com/NCTU-CSE-Introduction-to-Algorithms/assignment-4-announcement-and-discussion/subscription) this repository to get the latest discussion or announcement about the programming assignment 3.
+
+## Misc
+
+Read all characters from standard input (C++)
+
+```cpp
+#include<iostream>
+using namespace std;
+
+int main() {
+    char buf[2048];
+    int i = 0;
+    while(!cin.eof()) {
+        buf[i++] = cin.get();
+    }
+    buf[i] = '\0';
+    // do something.....
+    return 0;
+}
+```
+
+Read all characters from starndard input (C)
+
+```c
+#include<stdio.h>
+int main() {
+    char buf[2048];
+    char c;
+    int i = 0;
+    while(scanf("%c", &c) != EOF) {
+        buf[i++] = c;
+    }
+    return 0;
+}
+```
+
+Redirect file to standard input of a program:
+
+```bash
+$ ./your_program < input_file > output_file
+```
